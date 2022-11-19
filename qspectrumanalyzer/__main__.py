@@ -2,7 +2,7 @@
 
 import sys, os, signal, time, argparse
 
-from Qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 
 from qspectrumanalyzer import backends
 from qspectrumanalyzer.version import __version__
