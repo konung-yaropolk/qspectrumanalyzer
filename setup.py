@@ -60,7 +60,7 @@ setup(
     install_requires=[
         "soapy_power>=1.6.0",
         "pyqtgraph>=0.10.0",
-        "QtPy",
+        "qtpy",
     ],
     options={
         'build_qt': {

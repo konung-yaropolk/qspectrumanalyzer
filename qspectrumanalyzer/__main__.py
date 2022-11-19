@@ -167,7 +167,7 @@ class QSpectrumAnalyzerMainWindow(QtWidgets.QMainWindow, Ui_QSpectrumAnalyzerMai
         self.startFreqSpinBox.setValue(settings.value("start_freq", 87.0, float))
         self.stopFreqSpinBox.setValue(settings.value("stop_freq", 108.0, float))
         self.binSizeSpinBox.setValue(settings.value("bin_size", 10.0, float))
-        self.intervalSpinBox.setValue(settings.value("interval", 10.0, float))
+        self.intervalSpinBox.setValue(settings.value("interval", 10, int))
         self.gainSpinBox.setValue(settings.value("gain", 0, float))
         self.ppmSpinBox.setValue(settings.value("ppm", 0, int))
         self.cropSpinBox.setValue(settings.value("crop", 0, int))
@@ -276,7 +276,7 @@ class QSpectrumAnalyzerMainWindow(QtWidgets.QMainWindow, Ui_QSpectrumAnalyzerMai
         else:
             self.progressbar.setRange(0, value_max)
 
-        self.progressbar.setValue(value)
+        self.progressbar.setValue(int(value))
 
     def on_power_thread_started(self):
         """Update buttons state when power thread is started"""

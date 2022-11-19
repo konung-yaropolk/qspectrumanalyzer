@@ -1,4 +1,4 @@
-from Qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 
 from qspectrumanalyzer.utils import color_to_str, str_to_color
 
