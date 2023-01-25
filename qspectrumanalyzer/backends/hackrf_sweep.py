@@ -1,7 +1,7 @@
 import struct, shlex, sys, time
 
 import numpy as np
-from Qt import QtCore
+from qtpy import QtCore
 
 from qspectrumanalyzer import subproc
 from qspectrumanalyzer.backends import BaseInfo, BasePowerThread

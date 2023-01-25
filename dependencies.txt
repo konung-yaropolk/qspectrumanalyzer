@@ -1,4 +1,4 @@
 qtpy
-pyqt5
+pyqt6
 pyqtgraph
 soapy-power

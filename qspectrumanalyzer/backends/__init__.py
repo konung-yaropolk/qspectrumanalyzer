@@ -1,6 +1,6 @@
 import os, threading, shlex
 
-from Qt import QtCore
+from qtpy import QtCore
 
 from qspectrumanalyzer import subproc
 

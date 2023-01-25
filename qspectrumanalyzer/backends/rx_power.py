@@ -1,7 +1,7 @@
 import shlex
 
 import numpy as np
-from Qt import QtCore
+from qtpy import QtCore
 
 from qspectrumanalyzer import subproc
 from qspectrumanalyzer.backends import BaseInfo, BasePowerThread
